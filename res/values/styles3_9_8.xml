@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="MyTheme3_9_8" parent="@style/MyTheme3_9_2">
+        <item name="android:selectableItemBackground">@drawable/actionitem_bg</item>
+    </style>
+
+</resources>

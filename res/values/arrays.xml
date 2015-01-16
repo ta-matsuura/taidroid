@@ -1,0 +1,149 @@
+<resources>
+
+    <string-array name="sections">
+        <item>第1章 Android 4.0 (ICS)</item>
+        <item>第2章 フラグメント</item>
+        <item>第3章 アクションバー</item>
+        <item>第4章 ノーティフィケーション</item>
+        <item>第5章 アニメーション</item>
+        <item>第7章 コピー＆ペースト</item>
+        <item>第8章 ドラッグ＆ドロップ</item>
+        <item>第9章 ローダー</item>
+    </string-array>
+    <string-array name="section1">
+        <item>1.1.2 システム UI の状態</item>
+        <item>1.2.1 48dp 単位のレイアウト1</item>
+        <item>1.2.1 48dp 単位のレイアウト2</item>
+        <item>1.2.2 タイポグラフィ</item>
+        <item>1.3 Theme.Holo</item>
+        <item>1.3 Theme.Holo.NoActionBar</item>
+        <item>1.3 Theme.Holo.NoActionBar.Fullscreen</item>
+        <item>1.3 Theme.Holo.Panel</item>
+        <item>1.3 Theme.Holo.Wallpaper</item>
+        <item>1.3 Theme.Holo.Wallpaper.NoActionBar</item>
+        <item>1.3 Theme.Holo.Dialog</item>
+        <item>1.3 Theme.Holo.DialogMinWidth</item>
+        <item>1.3 Theme.Holo.Dialog.NoActionBar</item>
+        <item>1.3 Theme.Holo.DialogMinWidth.NoActionBar</item>
+        <item>1.4.1 GridLayout と Space1</item>
+        <item>1.4.1 GridLayout と Space2</item>
+        <item>1.4.2 Switch ウィジェット1</item>
+        <item>1.4.2 Switch ウィジェット2</item>
+        <item>1.4.3 SwitchPreference</item>
+        <item>1.4.4 PopupMenu</item>
+        <item>1.4.5 ListPopupWindow</item>
+        <item>1.4.6 NumberPicker</item>
+        <item>1.7.1 ViewPager で詳細画面を切り替える</item>
+        <item>1.7.2 ViewPager でタブを切り替える</item>
+    </string-array>
+    <string-array name="section2">
+        <item>2.2 &lt;fragment&gt; を使ってアクティビティにフラグメントを追加する</item>
+        <item>2.3 FragmentTransaction を使ってアクティビティにフラグメントを追加する</item>
+        <item>2.4 ListFragment を使う</item>
+        <item>2.5 DialogFragment を使う1</item>
+        <item>2.5 DialogFragment を使う2</item>
+        <item>2.5 DialogFragment を使う3</item>
+        <item>2.5 DialogFragment を使う4</item>
+        <item>2.5 DialogFragment を使う5</item>
+        <item>2.6 PreferenceFragment を使う</item>
+        <item>2.7 縦画面で 1 ペイン、横画面で 2 ペインのレイアウトを実現する</item>
+        <item>2.8 バックスタックを使ってフラグメントの入れ替えを戻す</item>
+        <item>2.9 ビューを持たないフラグメントで定期処理をする</item>
+        <item>2.10 フラグメントで ViewPager を使う1</item>
+        <item>2.10 フラグメントで ViewPager を使う2</item>
+    </string-array>
+    <string-array name="section3">
+        <item>3.1 アクションバーを作成する1</item>
+        <item>3.1 アクションバーを作成する2</item>
+        <item>3.1 アクションバーを作成する3</item>
+        <item>3.2 アクションバーを非表示にする</item>
+        <item>3.3 スプリットアクションバーを使う1</item>
+        <item>3.3 スプリットアクションバーを使う2</item>
+        <item>3.4 ナビゲーションとしてアプリケーションアイコンを使う1</item>
+        <item>3.4 ナビゲーションとしてアプリケーションアイコンを使う2</item>
+        <item>3.5 アクションバーにアクションビューを配置する1</item>
+        <item>3.5 アクションバーにアクションビューを配置する2</item>
+        <item>3.6 SearchView を使って検索ボックスを配置する</item>
+        <item>3.7 アクションバーにタブを配置する1</item>
+        <item>3.7 アクションバーにタブを配置する2</item>
+        <item>3.8 アクションバーにドロップダウンリストを配置する</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする1</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする2</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする3</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする4</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする5</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする6</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする7</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする8</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする9</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする10</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする11</item>
+        <item>3.9 アクションバーの見た目をカスタマイズする12</item>
+        <item>3.10 アクションモードを使う1</item>
+        <item>3.10 アクションモードを使う2</item>
+        <item>3.11 アクションモードをカスタマイズする1</item>
+        <item>3.11 アクションモードをカスタマイズする2</item>
+        <item>3.11 アクションモードをカスタマイズする3</item>
+        <item>3.11 アクションモードをカスタマイズする4</item>
+        <item>3.11 アクションモードをカスタマイズする5</item>
+        <item>3.11 アクションモードをカスタマイズする6</item>
+        <item>3.11 アクションモードをカスタマイズする7</item>
+        <item>3.12 アクションプロバイダを使う1</item>
+        <item>3.12 アクションプロバイダを使う2</item>
+    </string-array>
+    <string-array name="section4">
+        <item>4.1 Notification.Builder を使ってノーティフィケーションを作成する1</item>
+        <item>4.1 Notification.Builder を使ってノーティフィケーションを作成する2</item>
+        <item>4.2 大きいアイコンを表示する</item>
+        <item>4.3 通知数を表示する1</item>
+        <item>4.3 通知数を表示する2</item>
+        <item>4.3 通知数を表示する3</item>
+        <item>4.3 通知数を表示する4</item>
+        <item>4.4 プログレスバーを表示する1</item>
+        <item>4.4 プログレスバーを表示する2</item>
+        <item>4.4 プログレスバーを表示する3</item>
+        <item>4.5 ノーティフィケーションのレイアウトをカスタマイズする</item>
+    </string-array>
+    <string-array name="section5">
+        <item>5.3 ValueAnimator1</item>
+        <item>5.3 ValueAnimator2</item>
+        <item>5.3 ValueAnimator3</item>
+        <item>5.3 ValueAnimator4</item>
+        <item>5.4 TypeEvaluator を実装する</item>
+        <item>5.5 ObjectAnimator1</item>
+        <item>5.5 ObjectAnimator2</item>
+        <item>5.5 ObjectAnimator3</item>
+        <item>5.5 ObjectAnimator4</item>
+        <item>5.6 AnimatorSet で複数のアニメーションをまとめる1</item>
+        <item>5.6 AnimatorSet で複数のアニメーションをまとめる2</item>
+        <item>5.7 Animator にリスナーを設定する</item>
+        <item>5.8 ViewPropertyAnimator を使う</item>
+        <item>5.9 LayoutTransition を使う1</item>
+        <item>5.9 LayoutTransition を使う2</item>
+        <item>5.9 LayoutTransition を使う3</item>
+        <item>5.9 LayoutTransition を使う4</item>
+        <item>5.9 LayoutTransition を使う5</item>
+        <item>5.9 LayoutTransition を使う6</item>
+        <item>5.9 LayoutTransition を使う7</item>
+        <item>5.9 LayoutTransition を使う8</item>
+        <item>5.10 Keyframe を指定する</item>
+    </string-array>
+    <string-array name="section7">
+        <item>7.2 文字列のコピー＆ペーストを実装する</item>
+        <item>7.3 URI のコピー＆ペーストを実装する</item>
+        <item>7.4 インテントのコピー＆ペーストを実装する</item>
+    </string-array>
+    <string-array name="section8">
+        <item>8.1 単純なドラッグ＆ドロップ操作を実装する</item>
+        <item>8.2 ドラッグ＆ドロップで文字データを渡す</item>
+        <item>8.3 ドラッグ＆ドロップで URI データを渡す</item>
+        <item>8.4 ドラッグ＆ドロップでインテントデータを渡す</item>
+        <item>8.5 ドラッグ中の影をカスタマイズする</item>
+    </string-array>
+    <string-array name="section9">
+        <item>9.3 CursorLoader を使う</item>
+        <item>9.4 LoaderManager に複数のローダーを持たせる</item>
+        <item>9.5 AsyncTaskLoader を継承したオリジナルローダーを作成する</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="MyTheme3_9_10" parent="@style/MyTheme3_9_2">
+        <item name="android:actionBarStyle">@style/MyActionBarStyle3_9_10</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle3_9_10</item>
+        <item name="android:actionBarTabBarStyle">@style/MyActionBarTabBarStyle3_9_10</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabTextStyle3_9_10</item>
+    </style>
+
+    <style name="MyActionBarTabStyle3_9_10" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionitem_bg</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+    </style>
+
+    <style name="MyActionBarTabBarStyle3_9_10" parent="android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:divider">@drawable/divider_vertical_bright</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6dip</item>
+    </style>
+
+    <style name="MyActionBarTabTextStyle3_9_10" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#FFFAE8</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyActionBarStyle3_9_10" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#778C4A</item>
+        <item name="android:backgroundSplit">#495925</item>
+        <item name="android:backgroundStacked">#495925</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleStyle3_9_10</item>
+    </style>
+
+    <style name="MyActionBarTitleStyle3_9_10" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFAE8</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+        
+</resources>

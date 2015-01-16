@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="MyTheme3_9_3" parent="@style/MyTheme3_9_2">
+        <item name="android:actionBarSize">72dip</item>
+    </style>
+
+</resources>

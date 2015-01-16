@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="MyTheme3_9_9" parent="@style/MyTheme3_9_2">
+        <item name="android:actionDropDownStyle">@style/MyActionDropDownStyle3_9_9</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/MyActionItemTextAppearance3_9_9</item>
+    </style>
+
+    <style name="MyActionDropDownStyle3_9_9" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/dropdown_item</item>
+        <item name="android:popupBackground">@drawable/dropdown_bg</item>
+        <item name="android:dropDownSelector">@drawable/actionitem_bg</item>
+    </style>
+
+    <style name="MyActionItemTextAppearance3_9_9" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFAE8</item>
+    </style>
+
+</resources>

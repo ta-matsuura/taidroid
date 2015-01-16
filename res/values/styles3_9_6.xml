@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="MyTheme3_9_6" parent="@style/MyTheme3_9_2">
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflowStyle3_9_6</item>
+    </style>
+
+    <style name="MyActionButtonOverflowStyle3_9_6" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/more</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:minWidth">72dip</item>
+        <item name="android:background">@drawable/actionitem_bg</item>
+    </style>
+
+</resources>

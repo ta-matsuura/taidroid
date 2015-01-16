@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_custom_action_provider"
+        android:actionProviderClass="icsbook.sample.section3.example12.ColorActionProvider"
+        android:showAsAction="ifRoom"
+        android:title="Custom action provider"/>
+
+</menu>

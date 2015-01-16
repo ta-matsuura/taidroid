@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="MyTheme3_9_5" parent="@style/MyTheme3_9_2">
+        <item name="android:actionMenuTextColor">#FFFAE8</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionItemTextAppearance3_9_5</item>
+    </style>
+
+    <style name="MyActionItemTextAppearance3_9_5" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFAE8</item>
+    </style>
+
+</resources>

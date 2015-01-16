@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme3_11_2_2" parent="@android:style/Theme.Holo">
+        <item name="android:actionModeStyle">@style/MyActionMode3_11_2</item>
+    </style>
+
+    <style name="MyActionMode3_11_2">
+        <item name="android:background">#778C4A</item>
+        <item name="android:backgroundSplit">#495925</item>
+    </style>
+
+</resources>

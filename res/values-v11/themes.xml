@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo">
+        <!-- 3.0 以降のデバイス用のテーマ -->
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="MyTheme3_9_4" parent="@style/MyTheme3_9_2">
+        <item name="android:actionButtonStyle">@style/MyActionButtonStyle3_9_4</item>
+    </style>
+
+    <style name="MyActionButtonStyle3_9_4" parent="@android:style/Widget.Holo.ActionButton">
+        <item name="android:background">@drawable/actionitem_bg</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:minWidth">72dip</item>
+        <item name="android:minHeight">?android:attr/actionBarSize</item>
+    </style>
+
+    <style name="MyTheme3_9_4_2" parent="@style/MyTheme3_9_2">
+        <item name="android:actionBarItemBackground">@drawable/actionitem_bg</item>
+    </style>
+
+</resources>

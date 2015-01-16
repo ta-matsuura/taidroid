@@ -1,0 +1,4 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:fragment="icsbook.sample.section2.example6.MyPreferenceFragment"
+        android:title="Pref Title Test" android:summary="Summary test" />
+</preference-headers>

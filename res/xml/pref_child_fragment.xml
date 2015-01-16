@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Category1" >
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:summary="Checkbox summary"
+            android:title="Checkbox title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Category2" >
+
+        <EditTextPreference
+            android:dialogTitle="Dialog title"
+            android:key="edittext_preference"
+            android:summary="Dialog summary"
+            android:title="EditText Title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Category3" >
+
+        <PreferenceScreen
+            android:fragment="icsbook.sample.section2.example6.MyPreferenceFragment2"
+            android:summary="Fragment preference2 summary"
+            android:title="Fragment preference2 title" >
+
+            <extra
+                android:name="someKey"
+                android:value="somePrefValue" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="Intent preference summary"
+            android:title="Intent preference title" >
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.android.com" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

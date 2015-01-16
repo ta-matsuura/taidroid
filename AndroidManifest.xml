@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="icsbook.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:name=".HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Section1 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example1.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example2.MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example2.MainActivity2"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example2.MainActivity3"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example2.MainActivity4"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example2.MainActivity5"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example2.MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloActivity"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloNoActionBarActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloNoActionBarFullscreenActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloDialogActivity"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloDialogMinWidthActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.MinWidth" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloDialogNoActionBarActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloDialogNoActionBarMinWidthActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloPanelActivity"
+            android:theme="@android:style/Theme.Holo.Panel" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloWallpaperActivity"
+            android:theme="@android:style/Theme.Holo.Wallpaper" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example3.ThemeHoloWallpaperNoActionBarActivity"
+            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity4" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity6" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity7" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example4.MainActivity8" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example7.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example7.DetailActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section1.example7.MainActivity2" >
+        </activity>
+
+        <!-- Section2 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example2.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example3.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example4.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example5.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example5.MainActivity2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example5.MainActivity3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example5.MainActivity4" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example5.MainActivity5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example6.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example7.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example7.ContentActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example8.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example8.ContentActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example9.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example10.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section2.example10.MainActivity2" >
+        </activity>
+
+        <!-- Section3 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example1.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example1.MainActivity2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example1.MainActivity3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example2.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example3.MainActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example3.MainActivity2"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example4.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example4.MainActivity2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example5.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example5.MainActivity2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:name=".section3.example6.MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <provider
+            android:authorities="icsbook.sample"
+            android:name=".section3.example6.MySuggestionProvider"
+            android:syncable="false" />
+
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example7.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example7.MainActivity2" 
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example8.MainActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity" 
+            android:theme="@style/MyTheme3_9_1">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity2" 
+            android:theme="@style/MyTheme3_9_1">
+        </activity>
+            
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity3" 
+            android:theme="@style/MyTheme3_9_2"
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity4" 
+            android:theme="@style/MyTheme3_9_3"
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity5" 
+            android:theme="@style/MyTheme3_9_4">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity6" 
+            android:theme="@style/MyTheme3_9_4_2">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity7" 
+            android:theme="@style/MyTheme3_9_5">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity8" 
+            android:theme="@style/MyTheme3_9_6">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity9" 
+            android:theme="@style/MyTheme3_9_7">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity10" 
+            android:theme="@style/MyTheme3_9_8">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity11" 
+            android:theme="@style/MyTheme3_9_9">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example9.MainActivity12" 
+            android:theme="@style/MyTheme3_9_10">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example10.MainActivity">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example10.MainActivity2"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+            
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity"
+            android:theme="@style/MyTheme3_11_1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity2"
+            android:theme="@style/MyTheme3_11_1_2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity3"
+            android:theme="@style/MyTheme3_11_2" 
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity4"
+            android:theme="@style/MyTheme3_11_2_2" 
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity5"
+            android:theme="@style/MyTheme3_11_3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity6"
+            android:theme="@style/MyTheme3_11_4" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example11.MainActivity7"
+            android:theme="@style/MyTheme3_11_5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example12.MainActivity">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".section3.example12.MainActivity2">
+        </activity>
+            
+        <!-- Section4 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example1.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example1.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example2.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example3.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example3.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example3.MainActivity3" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example3.MainActivity4" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example4.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example4.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example4.MainActivity3" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section4.example5.MainActivity" />
+
+        <!-- Section5 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example3.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example3.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example3.MainActivity3" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example3.MainActivity4" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example4.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example5.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example5.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example5.MainActivity3" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example5.MainActivity4" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example6.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example6.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example7.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example8.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity2" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity3" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity4" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity5" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity6" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity7" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example9.MainActivity8" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section5.example10.MainActivity" />
+
+        <!-- Section6 -->
+        <receiver android:name=".section6.example1.GridWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/gridwidget" />
+        </receiver>
+
+        <service
+            android:exported="false"
+            android:name=".section6.example1.GridWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver android:name=".section6.example2.ListWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/listwidget" />
+        </receiver>
+
+        <service
+            android:exported="false"
+            android:name=".section6.example2.ListWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver android:name=".section6.example3.StackWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/stackwidget" />
+        </receiver>
+
+        <service
+            android:exported="false"
+            android:name=".section6.example3.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver android:name=".section6.example4.AdapterViewFlipperWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/adapterviewflipper" />
+        </receiver>
+
+        <service
+            android:exported="false"
+            android:name=".section6.example4.AdapterViewFlipperWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- Section7 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section7.example2.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section7.example3.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section7.example4.MainActivity" />
+
+        <!-- Section8 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section8.example1.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section8.example2.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section8.example3.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section8.example4.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section8.example5.MainActivity" />
+
+        <!-- Section9 -->
+        <activity
+            android:label="@string/app_name"
+            android:name=".section9.example3.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section9.example4.MainActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".section9.example5.MainActivity" />
+    </application>
+
+</manifest>

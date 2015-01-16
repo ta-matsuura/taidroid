@@ -1,0 +1,10 @@
+/.DS_Store
+/.settings
+/.classpath
+/.project
+/project.properties
+/gen
+/proguard.cfg
+/*.swp
+/bin
+

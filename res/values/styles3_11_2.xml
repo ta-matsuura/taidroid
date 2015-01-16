@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme3_11_2" parent="@android:style/Theme.Holo">
+        <item name="android:actionModeSplitBackground">@drawable/actionmode_split_bg</item>
+    </style>
+
+</resources>

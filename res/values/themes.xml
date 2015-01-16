@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="MyTheme" parent="@android:style/Theme">
+        <!-- 2.x 系のデバイス用のテーマ -->
+    </style>
+
+</resources>

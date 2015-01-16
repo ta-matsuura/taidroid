@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting1" />
+    
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting1"
+        android:textOn="on"
+        android:textOff="off"
+        android:thumbTextPadding="14dp"
+        android:switchMinWidth="128dp"
+        android:switchPadding="32dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:track="@drawable/switch_track"
+        android:thumb="@drawable/switch_inner" />
+
+</LinearLayout>
